@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/css/index.css">
+    <title>Consumer Complaint Classification</title>
+
+</head>
+
+<body>
+    <div class="container">
+        <h1>Consumer Complaint Classification</h1>
+        <form action="/predict" method="POST">
+            <label for="complaint">Enter your complaint:</label>
+            <textarea id="complaint" name="complaint" placeholder="Describe your complaint here..."></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>

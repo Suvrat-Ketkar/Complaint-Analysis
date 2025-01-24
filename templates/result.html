@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/css/result.css">
+    <title>Complaint Result</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Complaint Classification Result</h1>
+        <div class="result">
+            <p><strong>Classification Result:</strong> {{ category }}</p>
+            {% if category == "Credit reporting, repair, or other" %}
+            <p><strong>Cluster:</strong> <span class="cluster">{{ cluster_name }}</span></p>
+            {% endif %}
+        </div>
+        <a href="/" style="display: block; text-align: center; margin-top: 20px; color: #0056b3;">Submit Another Complaint</a>
+    </div>
+</body>
+
+</html>
