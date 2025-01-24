@@ -4,16 +4,16 @@ import pickle
 app = Flask(__name__)
 
 # Load models
-with open('tfidf_classification.pkl', 'rb') as f:
+with open('pickle/tfidf_classification.pkl', 'rb') as f:
     tfidf = pickle.load(f)
 
-with open('model_classification.pkl', 'rb') as f:
+with open('pickle/model_classification.pkl', 'rb') as f:
     model = pickle.load(f)
 
-with open('k_means_model.pkl', 'rb') as f:
+with open('pickle/k_means_model.pkl', 'rb') as f:
     k_means = pickle.load(f)
 
-with open('tfidf_vectorizer.pkl', 'rb') as f:
+with open('pickle/tfidf_vectorizer.pkl', 'rb') as f:
     tfidf_vectorizer = pickle.load(f)
 
 cluster_names = {
