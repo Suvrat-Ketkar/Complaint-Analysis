@@ -8,8 +8,7 @@
 3. [Technologies Used](#technologies-used)
 4. [Dataset](#dataset)
 5. [How It Works](#how-it-works)
-6. [Setup and Installation](#setup-and-installation)
-7. [Usage](#usage)
+6. [Future Enhancements](#future-enhancements)
 
 ---
 
