@@ -46,7 +46,7 @@ The project aims to streamline complaint analysis for businesses, helping them i
 ---
 
 ## **Dataset**
-- **Source**: Consumer Financial Protection Bureau (CFPB) Consumer Complaint Database.
+- **Source**: Consumer Financial Protection Bureau (CFPB) Consumer Complaint Database. [https://www.consumerfinance.gov/complaint/]
 - **Description**:
   - Contains thousands of consumer complaints with narrative descriptions.
   - Categories include Credit Reporting, Debt Collection, Loans, etc.
